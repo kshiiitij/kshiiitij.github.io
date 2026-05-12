@@ -27,13 +27,13 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:your-email@example.com'
+    link: 'mailto:kshitijdurgekd@gmail.com'
   - icon: github
     icon_pack: fab
     link: https://github.com/KSHIIITIJ
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/your-profile
+    link: https://www.linkedin.com/in/kshitij
 ---
 
 I have completed my Master thesis in Quantum Generative Modeling via Variational Quantum Algorithms. My project was titled **"Trainability of Quantum Circuit Born Machines"** where I studied the behavior of various loss functions in training Variational Quantum Circuits to generate complex, high-dimensional probability distributions. 
