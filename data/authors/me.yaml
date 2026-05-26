@@ -2,115 +2,103 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Kshitij Durge
+  given: Kshitij
+  family: Durge
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
 postnominals:
-  - PhD
-  - MIEEE
-status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  - MS
+role: Master's Student in Quantum Computing and Machine Learning
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I am a master's student who recently completed my MS thesis at the QuCIS Lab, IISER Bhopal, under the supervision of Dr. Ankur Raina. My research primarily focuses on the trainability of Quantum Circuit Born Machines (QCBMs) and quantum generative modeling. Specifically, I have investigated how circuit descriptors like expressibility and entanglement capability in Variational Quantum Circuits impact model performance. Furthermore, I have explored the role of loss functions in the trainability and accuracy of Variational Quantum Algorithms (VQAs), culminating in novel findings in the behavior of Sinkhorn Divergence, an optimal transport based metric, and a new training approach to improve the performance of the loss function in terms of trainability and accuracy of the generative model. This research has contributed to two manuscripts, including one published paper and another currently under review. Moving forward, I am eager to deepen my exploration of the intersection between physics and machine learning, while also diversifying my research to encompass fundamental quantum algorithms.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: IISER Bhopal — QuCIS Lab
+    url: https://www.iiserb.ac.in/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:kshitijdurgekd@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/kshitij-durge/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?user=1WkArYIAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0004-2371-5946
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Quantum Machine Learning
+  - Quantum Generative Modeling
+  - Quantum Circuit Born Machines
+  - Quantum Algorithms
+  - Variational Quantum Algorithms
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: MS (Thesis)
+    institution: IISER Bhopal
+    start: 2023-08-01
+    end: 2025-06-30
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Thesis: Trainability of Quantum Circuit Born Machines.
+      Advisor: Dr. Ankur Raina, QuCIS Lab.
+      Two manuscripts produced (one published, one under review).
     button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      text: "Download Thesis"
+      url: "/publications/preprint/thesis.pdf"
+  - degree: BS-MS Dual Degree
+    institution: IISER Bhopal
+    start: 2021-04-01
+    end: 2026-05-01
+    summary: |
+      Integrated BS-MS program with a major in Electrical Engineering and Computer Science and later
+      specialization in Quantum Computing and Quantum Machine Learning.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: MS Thesis
+    org: QuCIS Lab, IISER Bhopal
+    start: 2025-05-01
+    end: 2026-05-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Investigated the trainability landscape of Quantum Circuit Born Machines (QCBMs)
+      for quantum generative modeling, including theoretical and numerical analyses
+      of barren plateaus and cost function landscapes in parameterized quantum circuits.
+      Findings published in international conferences.
+  - role: BS Thesis
+    org: IISER Bhopal
+    start: 2024-08-01
+    end: 2025-05-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Implemented an approach to estimate the universal constant Pi (π) by coupling Grover's Search Algorithm with the classical Galperin Algorithm. This was achieved by mathematically mapping the dynamics of the classical Galperin system directly to the quantum iterations of Grover's algorithm, bridging classical mechanics with quantum search algorithms.
 
 skills:
-  - name: Technical Skills
+  - name: Quantum Computing
+    items:
+      - label: Qiskit
+      - label: PennyLane
+      - label: Quantum Circuit Design
+  - name: Programming & ML
     items:
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
+      - label: PyTorch
+  - name: Research
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+      - label: Scientific Writing
+      - label: LaTeX
 
 languages:
   - name: English
     level: 5
-    label: Native
-  - name: Spanish
-    level: 4
     label: Fluent
+  - name: Hindi
+    level: 5
+    label: Native
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: MS Thesis Completion — QuCIS Lab
+    awarder: IISER Bhopal
+    date: "2025-06-01"
+    summary: Successfully defended MS thesis on the trainability of Quantum Circuit Born Machines.
+    icon: hero/academic-cap

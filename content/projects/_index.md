@@ -1,21 +1,20 @@
 ---
 title: 'Projects'
-date: 2024-05-19
+date: 2025-05-16
 type: landing
 
-# Page sections
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Research Projects
+      text: ""
       filters:
         folders:
           - projects
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 2
       show_date: false
       show_read_time: false
       show_read_more: false

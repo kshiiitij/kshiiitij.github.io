@@ -1,41 +1,69 @@
 ---
-# Display name
 title: Kshitij Durge
+type: landing
 
-# Is this the primary user of the site?
-superuser: true
+design:
+  spacing: '4rem'
 
-# Role/position/tagline
-role: Quantum Algorithms and Machine Learning Researcher
+sections:
+  - block: resume-biography
+    id: about
+    content:
+      username: me
 
-# Organizations/Affiliations (Optional: Add your university here)
-organizations:
-  - name: Your University Name
-    url: ''
+  - block: resume-experience
+    id: experience
+    content:
+      username: me
+      title: Experience & Education
+    design:
+      columns: 1
 
-# Short bio (A quick 1-sentence summary)
-bio: My research focuses on Quantum Generative Modeling, Variational Quantum Algorithms, and the intersection of QML and Physics.
+  - block: collection
+    id: publications
+    content:
+      title: Publications & Thesis
+      text: ""
+      filters:
+        folders:
+          - publications
+    design:
+      view: citation
 
-# Interests
-interests:
-  - Quantum Machine Learning
-  - Variational Quantum Algorithms
-  - Generative Modeling
-  - Quantum Circuit Born Machines
+  - block: markdown
+    id: skills
+    content:
+      title: Technical Expertise
+      text: |
+        I have executed most of my simulations in PennyLane, occasionally utilizing Qiskit. I am experienced in Quantum Machine Learning (QML) and Quantum Information Theory. I am proficient in Python and have a basic knowledge of C and C++. My research experience also includes scientific writing and LaTeX.
+    design:
+      columns: 1
 
-# Social Links (Update with your actual links)
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:kshitijdurgekd@gmail.com'
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/KSHIIITIJ
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/kshitij
+  - block: collection
+    id: research
+    content:
+      title: Research Projects
+      text: ""
+      filters:
+        folders:
+          - projects
+    design:
+      view: article-grid
+      columns: 2
+      fill_image: false
+      show_date: false
+      show_read_time: false
+
+  - block: markdown
+    id: contact
+    content:
+      title: Contact
+      text: |
+        📧 **Email**: [kshitijdurgekd@gmail.com](mailto:kshitijdurgekd@gmail.com)
+
+        🏛️ **Address**: QuCIS lab, Department of Electrical Engineering and Computer Science, IISER Bhopal, 462066, Bhopal, Madhya Pradesh, India
+
+        Feel free to reach out if you are interested in collaborating on quantum computing research.
+    design:
+      columns: 1
 ---
-
-I have completed my Master thesis in Quantum Generative Modeling via Variational Quantum Algorithms. My project was titled **"Trainability of Quantum Circuit Born Machines"** where I studied the behavior of various loss functions in training Variational Quantum Circuits to generate complex, high-dimensional probability distributions. 
-
-I subsequently proposed a novel approach to train VQCs using one such metric, the Sinkhorn Divergence. I am highly interested in diversifying towards the intersection of Quantum Machine Learning and Physics and understanding the core aspects of pure Quantum and ML algorithms.
