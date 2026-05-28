@@ -68,8 +68,8 @@ experience:
       Findings published in international conferences.
   - role: BS Thesis
     org: IISER Bhopal
-    start: 2024-08-01
-    end: 2025-05-01
+    start: 2025-01-01
+    end: 2025-04-01
     summary: |
       Implemented an approach to estimate the universal constant Pi (π) by coupling Grover's Search Algorithm with the classical Galperin Algorithm. This was achieved by mathematically mapping the dynamics of the classical Galperin system directly to the quantum iterations of Grover's algorithm, bridging classical mechanics with quantum search algorithms.
 
